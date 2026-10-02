@@ -1,15 +1,16 @@
-# Privacy Policy for SuperTranslator
+# Privacy Policy for Dog Translator (by SuperTranslator)
 
 **Effective date:** 2026-05-27
-**Last updated:** 2026-05-27
+**Last updated:** 2026-10-02
 
-This Privacy Policy describes how the SuperTranslator iOS app ("**SuperTranslator**", "**the app**", "**we**", "**us**") handles information when you use it. SuperTranslator is currently a research preview distributed as "SuperTranslator TEST" via Apple's TestFlight beta program.
+This Privacy Policy describes how the Dog Translator iOS app by SuperTranslator Inc. ("**Dog Translator**", "**the app**", "**we**", "**us**") handles information when you use it. It applies to the App Store release (listed as "Dog Translation") and to the earlier "SuperTranslator TEST" TestFlight preview.
 
 ## Summary
 
 - SuperTranslator runs entirely **on your device**. It does **not** send your videos, photos, profile information, or any other personal data to us or to any third party.
 - We do **not** collect, store, sell, or share any personal information.
-- We do **not** use analytics, tracking, or advertising SDKs.
+- We do **not** use tracking or advertising SDKs.
+- The app sends **anonymous usage counts** (for example how often Live or Upload is used) to TelemetryDeck, a privacy-focused analytics service. These counts contain no personal information, no video, no audio and no translation text, and you can turn them off in the app at any time (see "Anonymous usage statistics" below).
 - We do **not** require an account, email address, or any other sign-up.
 
 ## Information stored on your device
@@ -37,33 +38,48 @@ You can revoke any of these permissions at any time in **Settings → SuperTrans
 
 ## On-device machine learning
 
-SuperTranslator analyzes videos and live camera feed using machine learning models that ship inside the app and run entirely on your device. No video frames, audio samples, pose data, or interpretations are sent to us, to Apple, or to any other server for processing.
+Dog Translator analyzes videos and the live camera feed using machine learning models that ship inside the app and run entirely on your device. No video frames, audio samples, pose data, or interpretations are sent to us, to Apple, or to any other server for processing.
 
 ## Internet access
 
-The app does not make any network requests of its own. The only times it opens an internet URL are when **you tap a button** that explicitly does so:
+The app makes only one kind of network request of its own: the anonymous usage counts described under "Anonymous usage statistics", sent to TelemetryDeck over an encrypted connection. No video, audio, images, pose data or translations are ever sent anywhere.
 
-- Tapping the SuperTranslator logo or QR code opens `https://supertranslator.ai` in your default browser.
-- Tapping a social-platform button on the share screen opens that platform's iOS app (or its App Store page if it isn't installed).
+Other than that, the app opens an internet destination only when **you tap a button** that explicitly does so:
+
+- Tapping a link to `https://supertranslator.ai` opens it in your default browser.
+- Tapping a research citation opens the publication's page in your default browser.
+- Tapping a share button hands the rendered video to the iOS share sheet; the app you choose there handles it.
 - Tapping "Open Settings" in a permission alert opens iOS's Settings app.
 
-In each case, the destination app (Safari, the social app, Settings) handles the request — not SuperTranslator — and is governed by its own privacy policy.
+In each case the destination app (Safari, the share target, Settings) handles the request, not Dog Translator, and is governed by its own privacy policy.
 
 ## Sharing rendered videos
 
 When you tap **Share** on the result screen, SuperTranslator renders a new video file that contains your original clip plus an on-screen caption track, a SuperTranslator watermark, and a QR code. The rendered file is saved to your Photos library and handed to the iOS share sheet. **What you do with that file from there is entirely your choice** — SuperTranslator does not upload it anywhere.
 
+## Anonymous usage statistics
+
+To understand which features are used and improve the app, Dog Translator counts feature use (for example app opens, Live sessions, video uploads, shares, and whether the Correct or Wrong button was tapped) and sends these counts to [TelemetryDeck](https://telemetrydeck.com), a privacy-focused analytics service based in Germany.
+
+- These counts contain **no personal information, no video, no audio, no images and no translation text**. Numbers such as session length are sent only as coarse ranges (for example "1-5 minutes").
+- The only identifier is a **random code created by the app on first launch**. It is not your Apple ID, not your device's advertising identifier, and it is not linked to you. TelemetryDeck additionally hashes it before storing it.
+- Along with each count, TelemetryDeck's library records the app version, iOS version, device model and language, which it uses only to produce aggregate statistics.
+- The data is used **only for analytics**, never for advertising or tracking across apps.
+- **You can turn this off at any time** in the app under Profile → Settings → "Share usage statistics". Turning it off stops all sending and deletes the random code.
+
+TelemetryDeck's own privacy practices are described in its [privacy policy](https://telemetrydeck.com/privacy/).
+
 ## Children's privacy
 
-SuperTranslator is not directed at children under the age of 13. We do not knowingly collect any information from children.
+Dog Translator is not directed at children under the age of 13. We do not knowingly collect any information from children.
 
 ## Third-party services
 
-SuperTranslator uses only Apple's first-party iOS frameworks (Vision, Sound Analysis, AVFoundation, PhotosUI, Foundation Models, Core ML, SwiftUI). It does not embed any third-party analytics, advertising, crash-reporting, or other SDKs.
+Dog Translator uses Apple's first-party iOS frameworks (Vision, Sound Analysis, AVFoundation, PhotosUI, Foundation Models, Core ML, SwiftUI) for all analysis, which happens on your device. The only third-party component is the TelemetryDeck analytics library described under "Anonymous usage statistics". The app embeds no advertising, crash-reporting, or other SDKs.
 
 ## Your rights
 
-Because SuperTranslator does not collect or transmit personal information, there is no server-side data for us to access, correct, or delete on your behalf. Uninstalling the app from your device removes all data the app has stored.
+Because Dog Translator does not collect or transmit personal information, there is no server-side data about you for us to access, correct, or delete. The anonymous usage counts cannot be linked to you. Uninstalling the app from your device removes all data the app has stored.
 
 If you are located in the European Economic Area, the United Kingdom, California, or another jurisdiction with similar privacy laws, you have certain rights regarding personal information about you. Because SuperTranslator processes data only on your device and we do not receive or store it, those rights are practically satisfied by your own control over the data on your device.
 
@@ -83,4 +99,4 @@ For questions about this policy or the app, contact:
 
 ---
 
-*This policy applies to the SuperTranslator iOS app and the "SuperTranslator TEST" TestFlight build with bundle identifier `com.SuperTranslator.SuperTranslator6`.*
+*This policy applies to the Dog Translator iOS app (App Store listing "Dog Translation") and the "SuperTranslator TEST" TestFlight build, bundle identifier `com.SuperTranslator.SuperTranslator6`.*

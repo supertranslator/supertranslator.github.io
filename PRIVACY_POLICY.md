@@ -3,7 +3,7 @@
 **Effective date:** 2026-05-27
 **Last updated:** 2026-10-02
 
-This Privacy Policy describes how the Dog Translator iOS app by SuperTranslator Inc. ("**Dog Translator**", "**the app**", "**we**", "**us**") handles information when you use it. It applies to the App Store release (listed as "Dog Translation") and to the earlier "SuperTranslator TEST" TestFlight preview.
+This Privacy Policy describes how the Dog Translator iOS app by SuperTranslator Inc. ("**Dog Translator**", "**the app**", "**we**", "**us**") handles information when you use it. It applies to the App Store release (listed as "Dog Translator AI") and to the earlier "SuperTranslator TEST" TestFlight preview.
 
 ## Summary
 
@@ -99,4 +99,4 @@ For questions about this policy or the app, contact:
 
 ---
 
-*This policy applies to the Dog Translator iOS app (App Store listing "Dog Translation") and the "SuperTranslator TEST" TestFlight build, bundle identifier `com.SuperTranslator.SuperTranslator6`.*
+*This policy applies to the Dog Translator iOS app (App Store listing "Dog Translator AI") and the "SuperTranslator TEST" TestFlight build, bundle identifier `com.SuperTranslator.SuperTranslator6`.*
